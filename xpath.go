@@ -116,6 +116,7 @@ const (
 	internetConnectivityIpv6DnsV6                           string = "Device/DNS/Relay/Forwardings/Forwarding[Status=\"ENABLED\"]/DNSServer"
 	internetConnectivityLastPPPConnectionFtth               string = "Device/PPP/Interfaces/Interface[Alias='PPP_FTTH_DATA']/LastPPPConnections"
 	internetConnectivityLastDSLSynchronization              string = "Device/DSL/Lines/Line[@uid='1']/LastDSLSynchronizations"
+	internetConnectivity4GStatus                            string = "Device/Cellular/Interfaces/Interface[Alias=\"USB_MODEM\"]/Status"
 	eventLog                                                string = "Device/DeviceInfo/VendorLogFiles/VendorLogFile[@uid='1']"
 	mySagemcomBoxDynDNSPassword                             string = "Device/Services/DynamicDNS/Clients/Client[@uid=\"1\"]/Password"
 	mySagemcomBoxDynDNSHostname                             string = "Device/Services/DynamicDNS/Clients/Client[@uid=\"1\"]/Hostnames/Hostname[@uid=\"1\"]/Name"
